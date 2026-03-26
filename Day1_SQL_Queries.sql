@@ -3,3 +3,5 @@ SELECT title
 FROM movies;
 SELECT director
 FROM movies;
+SELECT title, director
+FROM movies;
