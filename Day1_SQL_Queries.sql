@@ -9,3 +9,7 @@ SELECT title, year
 FROM movies;
 SELECT *
 FROM movies;
+Exercise 2 — Tasks
+SELECT *
+FROM movies
+WHERE id = 6;
