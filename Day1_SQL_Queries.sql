@@ -35,5 +35,9 @@ WHERE title LIKE
 SELECT * 
 FROM movies 
 WHERE title LIKE "WALL-%"; 
+SELECT director
+FROM movies
+ORDER BY director ASC;
+
 
 
