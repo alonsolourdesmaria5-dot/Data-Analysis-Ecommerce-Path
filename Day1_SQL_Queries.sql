@@ -1,4 +1,4 @@
--- Exercise 1: Find the title of each film
+-- Lesson 1: Find the title of each film
 SELECT title 
 FROM movies;
 SELECT director
@@ -9,12 +9,17 @@ SELECT title, year
 FROM movies;
 SELECT *
 FROM movies;
-Exercise 2 — Tasks
+-- Lesson 2: Queries with constraints (Pt. 1)
 SELECT *
 FROM movies
 WHERE id = 6;
 SELECT *
 FROM movies
-WHERE year NOT BETWEEN 2000 and 2010
+WHERE year NOT BETWEEN 2000 and 2010;
 SELECT title, year
-FROM movies LIMIT 5;
+FROM movies 
+LIMIT 5;
+-- Lesson 3: Queries with constraints (Pt. 2)
+SELECT *
+FROM movies
+WHERE title LIKE ¨Toy Story%¨:
