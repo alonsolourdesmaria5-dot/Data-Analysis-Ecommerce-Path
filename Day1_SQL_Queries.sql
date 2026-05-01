@@ -38,6 +38,11 @@ WHERE title LIKE "WALL-%";
 SELECT director
 FROM movies
 ORDER BY director ASC;
+SELECT title, year
+FROM movies
+ORDER BY year DESC
+LIMIT 4;
+
 
 
 
