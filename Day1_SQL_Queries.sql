@@ -29,5 +29,11 @@ WHERE director = "John Lasseter";
 SELECT *
 FROM movies
 WHERE title != "John Lasseter";
+SELECT *
+FROM movies
+WHERE title LIKE 
+SELECT * 
+FROM movies 
+WHERE title LIKE "WALL-%"; 
 
 
