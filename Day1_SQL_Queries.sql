@@ -22,4 +22,8 @@ LIMIT 5;
 -- Lesson 3: Queries with constraints (Pt. 2)
 SELECT *
 FROM movies
-WHERE title LIKE ¨Toy Story%¨:
+WHERE title LIKE "Toy Story%";
+SELECT *
+FROM movies
+WHERE director = "John Lasseter";
+
