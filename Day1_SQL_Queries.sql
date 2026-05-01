@@ -26,4 +26,8 @@ WHERE title LIKE "Toy Story%";
 SELECT *
 FROM movies
 WHERE director = "John Lasseter";
+SELECT *
+FROM movies
+WHERE title != "John Lasseter";
+
 
