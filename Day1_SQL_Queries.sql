@@ -42,6 +42,10 @@ SELECT title, year
 FROM movies
 ORDER BY year DESC
 LIMIT 4;
+SELECT title
+FROM movies
+ORDER BY title ASC
+LIMIT 5;
 
 
 
