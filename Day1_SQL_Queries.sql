@@ -54,6 +54,10 @@ LIMIT 5 OFFSET 5;
 SELECT city, population
 FROM north_american_cities
 WHERE country = “Canada”;
+SELECT city,latitude
+FROM North_american_cities
+WHERE country = "United States"
+ORDER BY latitude DESC;
 
 
 
