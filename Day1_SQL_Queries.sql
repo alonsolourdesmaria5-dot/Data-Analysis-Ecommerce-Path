@@ -50,6 +50,11 @@ SELECT title
 FROM movies 
 ORDER BY title ASC 
 LIMIT 5 OFFSET 5;
+-- SQL Review: Simple SELECT Queries
+SELECT city, population
+FROM north_american_cities
+WHERE country = “Canada”;
+
 
 
 
