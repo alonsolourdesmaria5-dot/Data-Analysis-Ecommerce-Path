@@ -50,7 +50,7 @@ SELECT title
 FROM movies 
 ORDER BY title ASC 
 LIMIT 5 OFFSET 5;
--- SQL Review: Simple SELECT Queries
+-- Review: Simple SELECT Queries
 SELECT city, population
 FROM north_american_cities
 WHERE country = “Canada”;
@@ -87,3 +87,7 @@ FROM movies
 JOIN boxoffice
 ON movies.id = boxoffice.movie_id
 ORDER BY rating DESC;
+--Lesson 7: OUTER JOINs
+SELECT DISTINCT building 
+FROM employees;
+
