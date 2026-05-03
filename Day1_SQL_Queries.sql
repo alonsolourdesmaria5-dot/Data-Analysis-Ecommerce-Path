@@ -72,3 +72,8 @@ FROM north_american_cities
 WHERE country = 'United States'
 ORDER BY population DESC
 LIMIT 2 OFFSET 2;
+--Lesson 6: Multi-table queries with JOINs
+SELECT  title, domestic_sales, international_sales 
+FROM movies   
+JOIN boxoffice
+ON movies.id = boxoffice.movie_id;
