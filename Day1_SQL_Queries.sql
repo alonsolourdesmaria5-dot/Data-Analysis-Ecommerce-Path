@@ -62,7 +62,9 @@ SELECT city,longitude
 FROM north_american_cities
 WHERE longitude < -87.629798
 ORDER BY longitude ASC;
-
-
-
+SELECT city, population 
+FROM north_american_cities
+WHERE country = “Mexico” 
+ORDER BY population DESC
+LIMIT 2; 
 
