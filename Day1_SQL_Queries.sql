@@ -90,4 +90,5 @@ ORDER BY rating DESC;
 --Lesson 7: OUTER JOINs
 SELECT DISTINCT building 
 FROM employees;
-
+SELECT building_name, capacity 
+FROM buildings;
